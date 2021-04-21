@@ -1,0 +1,23 @@
+-Variable: asigna informacion a la cual hacer referencia en el codigo.
+	A las variables se les puede asignar valor especifico. El uso de variables
+	sirve para ordenar y simplificar la informacion del codigo.
+	estructura de la variable: Var / nombre de la variable = //eventual valor asignado
+
+-String: Todo contenido entre comillas, comunmente texto.
+	estructura: 'string' o '22' (interpretado como str y no como numero)
+
+-Funcion: la funcion es un objeto invocable que tiene su propio nombre, que determina una operacion a resolver
+	una vez que la ejecucion del codigo llega a ella. Dentro de la funcion se engloban
+	las acciones a realizarse para resolver la funcion finalizando con el cierre de corchetes.
+	Estructura: function /nombre de la funcion/ (){/codigo  ejecutar/}
+
+	la funcion va a contar con un argumento que define la informacion usada para resolverla
+	y finalmente un elemento para arrojar un resultado expresandolo fuera de la funcion por medio de la declaracion
+	return, ya que la informacion contenida en una funcion esta limitada dentro de la misma, la declaracion return comunica
+	al programa que debe arrojar el resultado antes de seguir ejecutando el codigo.
+
+-if: contrl de flujo y comparacion. Sirve para que el codigo ejecute, mediante un argumento determinado, una comparacion y arroje
+	una respuesta de verdadero o falso (true; false)
+
+-valores booleanos: basado en la logica de boole, en JS es basicamente un valor binario (true o false) comunmente utilizados con
+	operadores de comparacion por ejemplo en las operaciones: if (valor1<valor2){/codigo/}
