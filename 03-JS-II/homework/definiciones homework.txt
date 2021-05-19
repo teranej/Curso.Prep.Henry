@@ -1,0 +1,14 @@
+For: es un bucle compuesto por una variable declarada, un condicional y un incremento en la variable. 
+Su finalidad es, basado en la variable declarada, evaluar la condicion hasta recibir un valor false para detenerse.
+
+sintaxis: for(let i = 0 ; i < 10 ; i++){
+console.log (i) 
+
+}
+
+
+&&: es un operador condicional(and), se usa para agregar parametros en una declaracion if buscando 
+que el objeto cumpla mas de una condicion para ser true
+||: otro operador condicional(or), en este caso busca que se cumpla al menos una condicion en el objeto para recibir un true.
+!: este operador (not) indica el parametro que "no es" por ejemplo si mi argumento dice {!==} me esta indicando que no es igual.
+de la misma forma {!true} indica que es false.
